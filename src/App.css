@@ -1,0 +1,27 @@
+body {
+
+    height: 180vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./finance-templates-blog-images-07.jpg'); 
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.app-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    @media (width: 650px) {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+}
+.details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,25 @@
+.detail-card{
+    margin-top: 33px;
+    height: 27vh;
+    width: 50vw
+}
+.content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.chart{
+    position: relative;
+    width: 80%;
+    height: 100%;
+
+}
+.Income{
+    background-color: #3ede33;
+}
+.Expenses{
+    background-color: #de3333;
+}
+.Investments{
+    background-color: #336fde;
+}
